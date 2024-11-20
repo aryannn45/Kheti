@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WorkWiz</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header class="relative flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-white text-sm py-3">
+    <nav class="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between">
+      <div class="flex items-center justify-between">
+      <a class="flex-none text-xl font-semibold focus:outline-none focus:opacity-80" href="#" aria-label="Brand">
+        <span class="inline-flex items-center gap-x-2 text-xl font-semibold">
+          <img class="w-10 h-auto" width="100" height="100" src="https://static.vecteezy.com/system/resources/previews/014/857/544/large_2x/wheat-logo-images-vector.jpg" alt="logo">
+          Kheti
+        </span>
+      </a>
+      <div class="sm:hidden">
+        <button type="button" class="hs-collapse-toggle relative size-7 flex justify-center items-center gap-x-2 rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" id="hs-navbar-example-collapse" aria-expanded="false" aria-controls="hs-navbar-example" aria-label="Toggle navigation" data-hs-collapse="#hs-navbar-example">
+          <svg class="hs-collapse-open:hidden shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" x2="21" y1="6" y2="6"/><line x1="3" x2="21" y1="12" y2="12"/><line x1="3" x2="21" y1="18" y2="18"/></svg>
+          <svg class="hs-collapse-open:block hidden shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+      </div>
+      </div>
+      <div id="hs-navbar-example" class="hidden hs-collapse overflow-hidden transition-all duration-300 basis-full grow sm:block" aria-labelledby="hs-navbar-example-collapse">
+        <div class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
+          <a class="font-medium text-blue-500 hover:text-orange-400 focus:outline-none" href="#" aria-current="page">Kheti+</a>
+          <a class="font-medium text-gray-600 hover:text-green-400 focus:outline-none focus:text-gray-400" href="#">Products</a>
+          <a class="font-medium text-gray-600 hover:text-green-400 focus:outline-none focus:text-gray-400" href="#">Food and Safety</a>
+          <a class="font-medium text-gray-600 hover:text-green-400 focus:outline-none focus:text-gray-400" href="#">Sustainability</a>
+          <a class="font-medium text-gray-600 hover:text-green-400 focus:outline-none focus:text-gray-400" href="#">About us</a> 
+        </div>
+      </div>
+    </nav>
+  </header>
+<main>
+  <section>
+    <div class="search-container">
+      <input type="text" placeholder="Search here..." class="search-bar">
+      <button class="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+  </section>
+
+  <!-- DEMANDING SERVICES -->
+   <div id="ds">
+     <div class="text-center">
+       <h2 class="text-4xl font-semibold">Explore Kheti</h2>
+     </div>
+   </div>
+   <!-- Masonry Cards -->
+<div class="max-w-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+  <!-- Grid -->
+  <div class="grid sm:grid-cols-12 gap-6">
+    <div class="sm:self-end col-span-12 sm:col-span-7 md:col-span-8 lg:col-span-5 lg:col-start-3">
+      <!-- Card -->
+      <a class="group relative block rounded-xl overflow-hidden focus:outline-none" href="#">
+        <div class="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
+          <img class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover" src="https://i.postimg.cc/v80qZMFk/WFB6-T4-D75sg-Sap-DGp-LPx-HD-1024-80-jpg.webp" alt="Masonry Cards Image">
+        </div>
+        <div class="absolute bottom-0 start-0 end-0 p-2 sm:p-4">
+          <div class="text-sm font-semibold text-gray-800 rounded-lg bg-white p-4 md:text-xl">
+            Strawberry Farms
+          </div>
+        </div>
+      </a>
+      <!-- End Card -->
+    </div>
+    <!-- End Col -->
+
+    <div class="sm:self-end col-span-12 sm:col-span-5 md:col-span-4 lg:col-span-3">
+      <!-- Card -->
+      <a class="group relative block rounded-xl overflow-hidden focus:outline-none" href="#">
+        <div class="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
+          <img class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover" src="https://i.postimg.cc/DwrYFG2d/Mango-Tree.jpg" alt="Masonry Cards Image">
+        </div>
+        <div class="absolute bottom-0 start-0 end-0 p-2 sm:p-4">
+          <div class="text-sm font-semibold text-gray-800 rounded-lg bg-white p-4 md:text-xl">
+            Mango Farms
+          </div>
+        </div>
+      </a>
+      <!-- End Card -->
+    </div>
+    <!-- End Col -->
+
+    <div class="col-span-12 md:col-span-4">
+      <!-- Card -->
+      <a class="group relative block rounded-xl overflow-hidden focus:outline-none" href="#">
+        <div class="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
+          <img class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover" src="https://i.postimg.cc/XYM3v99r/organic-fertilizer.webp" alt="Masonry Cards Image">
+        </div>
+        <div class="absolute bottom-0 start-0 end-0 p-2 sm:p-4">
+          <div class="text-sm font-semibold text-gray-800 rounded-lg bg-white p-4 md:text-xl">
+           Organic Farming
+          </div>
+        </div>
+      </a>
+      <!-- End Card -->
+    </div>
+    <!-- End Col -->
+
+    <div class="col-span-12 sm:col-span-6 md:col-span-4">
+      <!-- Card -->
+      <a class="group relative block rounded-xl overflow-hidden focus:outline-none" href="#">
+        <div class="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
+          <img class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover" src="https://i.postimg.cc/qMHpDKQX/th.jpg" alt="Masonry Cards Image">
+        </div>
+        <div class="absolute bottom-0 start-0 end-0 p-2 sm:p-4">
+          <div class="text-sm font-semibold text-gray-800 rounded-lg bg-white p-4 md:text-xl">
+            Seedlings Germination
+          </div>
+        </div>
+      </a>
+      <!-- End Card -->
+    </div>
+    <!-- End Col -->
+
+    <div class="col-span-12 sm:col-span-6 md:col-span-4">
+      <!-- Card -->
+      <a class="group relative block rounded-xl overflow-hidden focus:outline-none" href="#">
+        <div class="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
+          <img class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover" src="https://i.postimg.cc/44QfY5z7/Seed-Research.png" alt="Masonry Cards Image">
+        </div>
+        <div class="absolute bottom-0 start-0 end-0 p-2 sm:p-4">
+          <div class="text-sm font-semibold text-gray-800 rounded-lg bg-white p-4 md:text-xl">
+            Research
+          </div>
+        </div>
+      </a>
+      <!-- End Card -->
+    </div>
+    <!-- End Col -->
+  </div>
+  <!-- End Grid -->
+</div>
+<!-- End Masonry Cards -->
+
+<!-- GYAAAN -->
+
+<div class="freelance-section">
+  <h2>Pillars of Kheti</h2>
+  <div class="features max-w-7xl mx-auto">
+    <div class="feature-item">
+      <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/categories.72379ee.svg" alt="Over 700 categories icon">
+      <h3>Largest integrated value chain</h3>
+      <p>It's our equity and compensation policies, our promises to customers, or use of state-of-the-art technologies to make trust tangible, Kheti has been leading the way on all fronts.</p>
+    </div>
+    
+    <div class="feature-item">
+      <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/support.660ad7f.svg" alt="24/7 support icon">
+      <h3>Farm-to-fork traceability</h3>
+      <p>Our farmers see what happens with their produce after it leaves their farm, and our consumers see details about their food, their farmer, and what happens with the money they pay.</p>
+    </div>
+    
+    <div class="feature-item">
+      <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/lightning.2cded3f.svg" alt="Quality work done faster icon">
+      <h3>Safety and hygiene</h3>
+      <p>At Kheti, we ensure that we remain updated with the latest health norms. We even followed updated FSSAI norms meant to ensure safety during during the global COVID pandemic.</p>
+    </div>
+    
+    <div class="feature-item">
+        <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/handshake.287b5d3.svg" alt="Clear transparent pricing icon">
+      <h3>Farmer-led initiative</h3>
+      <p>Kheti is an initiative fully led and managed by farmers who have complete understanding of the problems faced by small-landholding farmers.</p>
+    </div>
+  </div>
+</div>
+
+<!-- POSTER -->
+
+<div class="ecommerce-section">
+  <div class="content">
+    <img src="https://i.postimg.cc/tC315rBt/wheat-logo-images-vector.png" height="150" alt="UpSkills logo" class="logo">
+    <h2 id="heading2"><span>Assured Contract Farming System</span> by Kheti</h2>
+    <p id="description">Kheti, a pioneering name in agricultural solutions, has introduced its Assured Contract Farming System, designed to revolutionize the farming landscape. This system is built on the principles of mutual trust, fair trade, and sustainable agricultural practices. It provides farmers with a guaranteed market for their produce, ensuring steady income and reducing the uncertainties associated with traditional farming.  
+        <br>
+        
+        Under this system, Kheti enters into pre-agreed contracts with farmers, specifying the type of crop, cultivation practices, and procurement price. This transparency eliminates market volatility and assures farmers of a fixed return on their investment. The company also extends support throughout the crop cycle, offering high-quality seeds, fertilizers, and expert agronomic advice. This integrated approach not only boosts productivity but also enhances the quality of the yield.    
+        
+        With its Assured Contract Farming System, Kheti not only enhances the livelihoods of farmers but also contributes to food security and rural development. This model reflects Kheti’s commitment to building a resilient agricultural ecosystem where farmers thrive as essential stakeholders in the supply chain.p>
+    <ul id="list">
+    <a href="#" class="cta-button">Get started</a>
+  </div>
+  
+  <div class="visual">
+    <img src="https://i.postimg.cc/Fz0kqmQG/realistic-farming-industry-aerial-view-without-solar-panels.jpg" class="visual-image">
+  </div>
+</div>
+
+<!-- POSITION OFFERED -->
+
+ <div id="ds2">
+    <div class="text-center">
+      <h2 class="text-4xl font-semibold">Service Offered</h2>
+    </div>
+  </div>
+
+<!-- Card Section -->
+<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+    <!-- Grid -->
+    <div class="grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-3 sm:gap-6">
+      <!-- Card -->
+      <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md focus:outline-none focus:shadow-md transition" href="#">
+        <div class="p-4 md:p-5">
+          <div class="flex justify-between items-center gap-x-3">
+            <div class="grow">
+              <h3 class="group-hover:text-green-600 font-semibold text-gray-800">
+                Crop Cultivation Services
+              </h3>
+              <p class="text-sm text-gray-500">
+                4 job positions
+              </p>
+            </div>
+            <div>
+              <svg class="shrink-0 size-5 text-gray-800" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+            </div>
+          </div>
+        </div>
+      </a>
+      <!-- End Card -->
+  
+      <!-- Card -->
+      <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md focus:outline-none focus:shadow-md transition" href="#">
+        <div class="p-4 md:p-5">
+          <div class="flex justify-between items-center gap-x-3">
+            <div class="grow">
+              <h3 class="group-hover:text-green-600 font-semibold text-gray-800">
+                Livestock Management Services
+              </h3>
+              <p class="text-sm text-gray-500">
+                26 job positions
+              </p>
+            </div>
+            <div>
+              <svg class="shrink-0 size-5 text-gray-800" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+            </div>
+          </div>
+        </div>
+      </a>
+      <!-- End Card -->
+  
+      <!-- Card -->
+      <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md focus:outline-none focus:shadow-md transition" href="#">
+        <div class="p-4 md:p-5">
+          <div class="flex justify-between items-center gap-x-3">
+            <div class="grow">
+              <h3 class="group-hover:text-green-600 font-semibold text-gray-800">
+                Agricultural Equipment Rental
+              </h3>
+              <p class="text-sm text-gray-500">
+                9 job positions
+              </p>
+            </div>
+            <div>
+              <svg class="shrink-0 size-5 text-gray-800" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+            </div>
+          </div>
+        </div>
+      </a>
+      <!-- End Card -->
+  
+      <!-- Card -->
+      <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md focus:outline-none focus:shadow-md transition" href="#">
+        <div class="p-4 md:p-5">
+          <div class="flex justify-between items-center gap-x-3">
+            <div class="grow">
+              <h3 class="group-hover:text-green-600 font-semibold text-gray-800">
+                Soil Testing and Fertility Services
+              </h3>
+              <p class="text-sm text-gray-500">
+                11 job positions
+              </p>
+            </div>
+            <div>
+              <svg class="shrink-0 size-5 text-gray-800" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+            </div>
+          </div>
+        </div>
+      </a>
+      <!-- End Card -->
+  
+      <!-- Card -->
+      <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md focus:outline-none focus:shadow-md transition" href="#">
+        <div class="p-4 md:p-5">
+          <div class="flex justify-between items-center gap-x-3">
+            <div class="grow">
+              <h3 class="group-hover:text-green-600 font-semibold text-gray-800">
+                Agricultural Consultancy
+              </h3>
+              <p class="text-sm text-gray-500">
+                37 job positions
+              </p>
+            </div>
+            <div>
+              <svg class="shrink-0 size-5 text-gray-800" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+            </div>
+          </div>
+        </div>
+      </a>
+      <!-- End Card -->
+  
+      <!-- Card -->
+      <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md focus:outline-none focus:shadow-md transition" href="#">
+        <div class="p-4 md:p-5">
+          <div class="flex justify-between items-center gap-x-3">
+            <div class="grow">
+              <h3 class="group-hover:text-green-600 font-semibold text-gray-800">
+                Organic Farming Solutions
+              </h3>
+              <p class="text-sm text-gray-500">
+                2 job positions
+              </p>
+            </div>
+            <div>
+              <svg class="shrink-0 size-5 text-gray-800" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+            </div>
+          </div>
+        </div>
+      </a>
+      <!-- End Card -->
+  
+      <!-- Card -->
+      <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md focus:outline-none focus:shadow-md transition" href="#">
+        <div class="p-4 md:p-5">
+          <div class="flex justify-between items-center gap-x-3">
+            <div class="grow">
+              <h3 class="group-hover:text-green-600 font-semibold text-gray-800">
+                Farm Produce Marketing and Distribution
+              </h3>
+              <p class="text-sm text-gray-500">
+                10 job positions
+              </p>
+            </div>
+            <div>
+              <svg class="shrink-0 size-5 text-gray-800" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+            </div>
+          </div>
+        </div>
+      </a>
+      <!-- End Card -->
+  
+      <!-- Card -->
+      <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md focus:outline-none focus:shadow-md transition" href="#">
+        <div class="p-4 md:p-5">
+          <div class="flex justify-between items-center gap-x-3">
+            <div class="grow">
+              <h3 class="group-hover:text-green-600 font-semibold text-gray-800">
+                Agro-Tourism 
+              </h3>
+              <p class="text-sm text-gray-500">
+                14 job positions
+              </p>
+            </div>
+            <div>
+              <svg class="shrink-0 size-5 text-gray-800" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+            </div>
+          </div>
+        </div>
+      </a>
+      <!-- End Card -->
+    </div>
+    <!-- End Grid -->
+  </div>
+  <!-- End Card Section -->
+
+  <!-- STATS -->
+
+<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+    <!-- Grid -->
+    <div class="grid gap-6 grid-cols-2 sm:gap-12 lg:grid-cols-3 lg:gap-8">
+      <!-- Stats -->
+      <div>
+        <h4 class="text-lg sm:text-xl font-semibold text-gray-800">Success rate</h4>
+        <p class="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-600">99.95%</p>
+        <p class="mt-1 text-gray-500">in fulfilling orders</p>
+      </div>
+      <!-- End Stats -->
+  
+      <!-- Stats -->
+      <div>
+        <h4 class="text-lg sm:text-xl font-semibold text-gray-800">Trusted by</h4>
+        <p class="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-600">2,000+</p>
+        <p class="mt-1 text-gray-500">partner with Kheti</p>
+      </div>
+      <!-- End Stats -->
+  
+      <!-- Stats -->
+      <div>
+        <h4 class="text-lg sm:text-xl font-semibold text-gray-800">Happy customer</h4>
+        <p class="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-600">85%</p>
+        <p class="mt-1 text-gray-500">this year alone</p>
+      </div>
+      <!-- End Stats -->
+    </div>
+    <!-- End Grid -->
+  </div>
+  <!-- End Features -->
+
+  <!-- Made on WorkWiz -->
+
+<div>
+    <div id="ds3">
+        <div class="text-center">
+          <h2 class="text-4xl font-semibold">Happy Customers</h2>
+        </div>
+    </div>
+
+  <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
+      <div class="space-y-2">
+        <img class="w-full h-auto object-cover" src="https://img.freepik.com/premium-photo/happy-indian-farmer-at-green-turmeric-agriculture-field_75648-12537.jpg" alt="Gallery Masonry Image">
+        <img class="w-full h-auto object-cover" src="https://img.freepik.com/premium-photo/indian-happy-farmer-harvesting-coriander-flowers-successful-farming_898049-1175.jpg" alt="Gallery Masonry Image">
+        <img class="w-full h-auto object-cover" src="https://as2.ftcdn.net/v2/jpg/04/45/69/65/1000_F_445696583_kN8UnRh8CJVYZJv2Qy6cFyyXnez7qqqD.jpg" alt="Gallery Masonry Image">
+      </div>
+      <div class="space-y-2">
+        <img class="w-full h-auto object-cover" src="https://img.freepik.com/premium-photo/happy-indian-farmer-selling-milk-farm-concept-milk-production-agri-busines-rural-india-growth-agriculture_898049-1486.jpg" alt="Gallery Masonry Image">
+        <img class="w-full h-auto object-cover" src="https://img.freepik.com/premium-photo/happy-indian-farmer-selling-milk-farm_898049-1421.jpg" alt="Gallery Masonry Image">
+      </div>
+      <div class="space-y-2">
+        <img class="w-full h-auto object-cover" src="https://th.bing.com/th/id/OIP.fAT1H9HixmSpV4-FaUNh_AAAAA?rs=1&pid=ImgDetMain" alt="Gallery Masonry Image">
+        <img class="w-full h-auto object-cover" src="https://th.bing.com/th/id/R.4115a441276bde7581fc0e424e3dbf31?rik=JbMiuzPkq0t0tA&riu=http%3a%2f%2fwww.mahafeedwsf.net%2fnew10%2fcustomer.jpg&ehk=1%2bNCoN2DOn3EuWfmD44EKdyA%2fs2nPevAvZ6JpDsav%2bo%3d&risl=&pid=ImgRaw&r=0" alt="Gallery Masonry Image">
+        <img class="w-full h-auto object-cover" src="https://img.freepik.com/premium-photo/young-indian-farmer-showing-fertilizer-bottle-greenhouse_75648-3494.jpg" alt="Gallery Masonry Image">
+      </div>
+      <div class="space-y-2">
+        <img class="w-full h-auto object-cover" src="https://live.staticflickr.com/65535/52651532941_03eda75d3a_b.jpg" alt="Gallery Masonry Image">
+        <img class="w-full h-auto object-cover" src="https://i.postimg.cc/5NSM3try/R.jpg" alt="Gallery Masonry Image">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Poster2 -->
+
+<div class="cta-section">
+    <div class="cta-text">
+        <h1>Farming at your <span class="highlight">fingertips!</span></h1>
+        <a href="https://www.fiverr.com" class="cta-button">Join Kheti</a>
+    </div>
+</div>
+
+
+</main>
+</body>
+
+<!-- Contacts -->
+
+<footer class="footer">
+    <div class="footer-content">
+      <div class="footer-columns">
+        <div class="footer-column">
+          <h3>Categories</h3>
+          <ul>
+            <li><a href="#">Crop Production</a></li>
+            <li><a href="#">Animal Husbandry</a></li>
+            <li><a href="#">Agro-Technology</a></li>
+            <li><a href="#">Agro-Processing</a></li>
+            <li><a href="#">Organic Farming</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>For Clients</h3>
+          <ul>
+            <li><a href="#">Soil Testing</a></li>
+            <li><a href="#">Crop Protection</a></li>
+            <li><a href="#">Irrigation Design </a></li>
+            <li><a href="#">Consultation </a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Help</h3>
+          <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Featured links</h3>
+          <ul>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Meet our Chairman</a></li>
+            <li><a href="#">Food Safety Standards</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Company</h3>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Press & News</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <img src="https://i.postimg.cc/tC315rBt/wheat-logo-images-vector.png" alt="Logo" class="footer-logo">
+        <p>© Kheti, 2024.</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-pinterest"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>  
+
+</html>
